@@ -1,0 +1,213 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+    font-family: 'Indie Flower', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.the-code-header {
+    background-image: url(img/leaves.jpeg);
+    background-size: cover;
+    min-width: 320px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: pink;
+    text-shadow: 1px 1px 3px black;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.latest-news {
+    text-align: center;
+    font-size: .8rem;
+    font-weight: lighter;
+    color: cadetblue;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 40px;
+
+}
+
+.header {
+    border-bottom: 5px solid green;
+}
+
+
+form {
+    margin-top: 10px;
+    border-top: 2px solid green;
+    background-color: #bbfcda;
+
+}
+
+fieldset {
+    border-color: green;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: radial-gradient(#daf7e8, #fadef6);
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: .9rem;
+    background-image: radial-gradient(#daf7e8, #fadef6);
+}
+
+.html-news,
+.css-news,
+.js-news,
+.html-format,
+.plain-text {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: left;
+
+}
+
+
+textarea {
+    height: 150px;
+}
+
+legend {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.checkbox,
+.radio {
+    width: 20px;
+}
+
+.hint {
+    text-align: left;
+}
+
+hr {
+    color: green;
+}
+
+.name {
+    padding: 5px;
+}
+
+input:focus {
+    color: darkblue;
+    
+}
+
+:checked {
+    border-color: darkblue;
+}
+
+section {
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 260px;
+}
+
+.city-section,
+.state-section,
+.zip-section {
+    display: flex;
+    flex-direction: column;
+}
+#zip {
+    width: 130px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+button {
+    display: inline;
+    justify-content: center;
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    height: 50px;
+    background-color: #f7bc9e;
+}
+
+footer {
+    text-align: center;
+    color: grey;
+    font-size: .9rem;
+}
+
+@media (min-width: 768px) {
+    .city-section,
+    .state-section,
+    .zip-section {
+        display: flex;
+        flex-direction: row;
+    }
+    .contact-info {
+        display: flex;
+        justify-items:flex-start;
+    }
+    label {
+         width: 150px;
+    }
+    .cinfo {
+        display: flex;
+        justify-content: normal;
+    }
+
+ .header {
+     /* display: flex;
+     flex-direction: column;
+     justify-content: center; */
+    margin-left: 100px;
+    margin-right: 100px;
+ }
+
+ form {
+     margin-left: 100px;
+     margin-right: 100px;
+ }
+ 
+ button {
+     width: 568px;
+ }
+
+ input {
+    width: 300px;
+} 
+
+select {
+     width: 300px;
+}
+
+ #zip {
+    width: 75px;
+}
+
+}
