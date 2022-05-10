@@ -8,6 +8,15 @@ body {
     padding: 0;
 }
 
+input,
+select,
+textarea {
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  box-shadow: none;
+}
+
 .the-code-header {
     background-image: url(img/leaves.jpeg);
     background-size: cover;
@@ -75,6 +84,14 @@ fieldset {
     background-image: radial-gradient(#daf7e8, #fadef6);
 }
 
+::placeholder {
+    text-align: right;
+}
+
+textarea::placeholder {
+    text-align: left;
+}
+
 .html-news,
 .css-news,
 .js-news,
@@ -114,10 +131,15 @@ hr {
     padding: 5px;
 }
 
-input:focus {
-    color: darkblue;
-    
+input:focus,
+select:focus,
+textarea:focus {
+    border: 3px solid darkblue;
+    transition: 3s;
+    border-radius: 4px;
 }
+
+
 
 :checked {
     border-color: darkblue;
