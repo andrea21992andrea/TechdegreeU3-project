@@ -140,6 +140,9 @@ textarea:focus {
 }
 
 
+button:hover {
+    color: coral;
+}
 
 :checked {
     border-color: darkblue;
