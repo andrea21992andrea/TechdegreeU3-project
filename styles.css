@@ -49,13 +49,13 @@ h2 {
 
 form {
     margin-top: 10px;
-    border-top: 2px solid green;
-    background-color: #bbfcda;
+    border-top: 2px solid rgb(147, 222, 147);
+    background-color: rgb(174, 218, 174);
 
 }
 
 fieldset {
-    border-color: green;
+    border-color: orchid;
 }
 
 .contact-info {
